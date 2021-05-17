@@ -47,3 +47,16 @@
   .App-productos{
     height: 1880px;
   }
+
+  .AppForm{
+    background-color: #fff;
+    text-align: left;
+    padding: 3px;
+    color: #FFFFFF;
+  }
+
+  .App_Text_Form{
+    width: 700px;
+    padding: 5px;
+    
+  }

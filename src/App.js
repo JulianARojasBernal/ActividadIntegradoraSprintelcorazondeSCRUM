@@ -15,7 +15,7 @@ function App() {
         <ul>
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Sobre nosotros</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="App_Form.js">Contacto</a></li>
           <li><a href="#">Carrito</a></li>
         </ul>
         </nav>
@@ -24,10 +24,38 @@ function App() {
 
       <body className="Appbody">
 
+        
+
         <div ClassName="Appbaner">
         <img src={baner} className="App-baner" alt="baner" />
 
         </div>
+
+        <div className="App_Text_Form">¡Que gusto que estés aquí! dinos cómo podemos ayudarte en el siguiente formulario </div>
+
+        <form ClassName="AppForm">
+  <label>
+   <div> Nombre:</div>
+    <input type="text" name="name" />
+  </label>
+  <label>
+   <div> Telefono:</div>
+    <input type="text" name="phone" />
+  </label>
+  <label>
+  <div> Correo:</div>
+    <input type="text" name="mail" />
+  </label>
+  <label>
+  <div> Asunto:</div>
+    <input type="text" name="message" />
+  </label>
+  <label>
+  <div> Si lo desea por favor dejenos el SKU que quiere comprar:</div>
+    <input type="text" name="sku" />
+  </label>
+  <div><input type="submit" value="ENVIAR" /></div>
+</form>
 
         <div className="produto1"> 
         <img src={productos} className="App-productos" alt="prodcutos" />
