@@ -2,12 +2,6 @@
   text-align: center;
   }
 
-.App-logo {
-  height: auto;
-  pointer-events: none;
-}
-
-
 .App-header {
   background-color: #707070;
   min-height: 100px;
@@ -18,32 +12,76 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-  .Appmenu {
-  background-color: #fff;
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+nav a{
   display: inline-block;
-  width:10%;
-  padding:5px 10px;
-  background-color:#000;
-  border:1px solid #000;
-  text-align:center;
-  color:#fff;
-  }
-  
-  nav li:hover{
-  background-color:#fff;
-  color:#000;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  padding: 8px;
+  border-radius: 8px;
+
+}
+nav a:hover{
+  background-color: #282c34;
+  color: #fff;
+}
+
+.Appbody {
+      background: #282c34;
   }
 
-  .Appbody {
-    background: #282c34;
-    width: auto;
+.App-baner{
+  width: 100%;
+}
 
-  }
+.Containerproductos {
+  display: block;
+  border-color: brown;
+  width: 10%;
+  padding: 10px;
+  margin: 20px;
 
-  .App-baner{
-    height: 750px;
-  }
+}
+.Productos{
+    border: aquamarine;
+  width: 25px;
 
-  .App-productos{
-    height: 1880px;
-  }
+
+}
+footer{
+      text-align: center;
+      padding: 0 55px;
+}
+
+footer .container_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+
+footer .container_footer .footer_section{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer_img{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+}
+
+footer .footer_img img{
+      width: 55px;
+      height: 55px;
+      cursor: pointer;
+      border-radius: 10px;
+}
