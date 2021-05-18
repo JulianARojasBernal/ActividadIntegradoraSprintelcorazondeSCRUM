@@ -79,9 +79,28 @@ footer .footer_img{
       justify-content: space-around;
 }
 
+<<<<<<< HEAD
 footer .footer_img img{
       width: 55px;
       height: 55px;
       cursor: pointer;
       border-radius: 10px;
 }
+=======
+  .App-productos{
+    height: 1880px;
+  }
+
+  .AppForm{
+    background-color: #fff;
+    text-align: left;
+    padding: 3px;
+    color: #FFFFFF;
+  }
+
+  .App_Text_Form{
+    width: 700px;
+    padding: 5px;
+    
+  }
+>>>>>>> 3ae243e44905b0c3f4183f22b01641d4d1bd76c2
