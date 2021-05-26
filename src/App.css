@@ -33,30 +33,30 @@ nav a{
 
 }
 nav a:hover{
-  background-color: #282c34;
+  background-color: #ffffff;
   color: #fff;
 }
 
 .Appbody {
-      background: #282c34;
+      background: #ffffff;
   }
 
 .App-baner{
-  width: 100%;
+  width: 70%;
 }
 
 .Containerproductos {
-  display: block;
-  border-color: brown;
+  width: 30%;
   width: 10%;
-  padding: 10px;
-  margin: 20px;
+  
 
 }
+
 .Productos{
     border: aquamarine;
-  width: 25px;
-
+    width: 25%;
+    padding: 50px;
+    margin: 50px;
 
 }
 footer{

@@ -73,7 +73,7 @@ function App() {
             <p>contacto@correo.com</p>
           </div>
         </div>
-        
+
       </footer>
     </div>
   );
