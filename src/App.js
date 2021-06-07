@@ -55,9 +55,9 @@ function App() {
           </div>
           
           <div className='footer_img'>
-            <img src={face} width= '150' height='150' ></img>
-            <img src={insta} width= '150' height='150' ></img>
-            <img src={youtube} width= '150' height='150' ></img>
+          <a href="https://www.facebook.com/Urrea-Las-mejores-herramientas-105167951772127" target="_blank"> <img src={face} width= '150' height='150' ></img> </a>
+          <a href="https://www.instagram.com/urrea_2021/?utm_medium=copy_link" target="_blank"> <img src={insta} width= '150' height='150' ></img> </a>
+          <a href="https://www.youtube.com/channel/UCxsUrXuR2Dia_Jx0fbbCqUA/videos?view=0&sort=dd&shelf_id=0" target="_blank"> <img src={youtube} width= '150' height='150' ></img> </a>
           </div>
         
           
