@@ -25,7 +25,16 @@ function App() {
         <h1> Las mejores herramientas...</h1>  
       </header>
 
+      <section>
+      <h2> Un poco de nosotros</h2>
+      <p> Somos una empresa 100% Mexicana con presencia global, con más de 100 años de vida. Grupo Urrea está integrado por dos divisiones: “Dando vida al agua” y “Solución Total en Herramientas y Cerrajería” ambas líderes en sus respectivos mercados. Sus marcas satisfacen las necesidades de los usuarios y son reconocidas en más de 20 países del continente americano, incluyendo los EUA. </p>
+
+      <p> La División Herramientas y Cerrajería nace de la asociación entre Grupo Urrea y un fabricante de herramienta en EUA, para crear Protomex, antecesor de Grupo Urrea División Herramientas. Posteriormente con la integración de la marca LOCK al portafolio de esta división, se da origen a lo que actualmente conocemos como “Grupo Urrea Solución Total en Herramientas y Cerrajería”.        
+      </p>
+        </section>
+
 <body className="Appbody">
+  <h2> Las Mejores Herramientas</h2>
   <div ClassName="Appbaner">
     <img src={baner} className="App-baner" alt="baneser" />
     <img src={baner1} className="App-baner" alt="baner" />
@@ -35,12 +44,13 @@ function App() {
 
 
   <div ClassName="ContainerProductos"> </div>
+    <h2> Productos Destacados </h2>
     <div ClassName="Productos1">
       <img ClassName= "Producto_1" src={Productos}  alt="producto" />
     </div>        
     
   <div className="info">
-    <h2> Tornillo de banco 4" Foy </h2>
+    <h3> Tornillo de banco 4" Foy </h3>
       <p> -Longitud total 235mm, apertura máxima de la quijada 90mm, profundidad de la garganta de 50mm, ancho de quijada de 100mm, ancho de quijada de 10KN. Diámetro de orificios de ensamble 9mm(+/- 5%). Peso 4.8 kg (+/-3%). 
         -Base giratoria de 360°.
         -Hecho en hierro fundido.
