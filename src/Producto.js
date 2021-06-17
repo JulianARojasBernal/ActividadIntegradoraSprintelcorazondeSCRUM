@@ -2,7 +2,7 @@ import logo from './logourrea.png';
 import baner from './baner.jpg'
 import productos from './productos.jpg'
 import pie from './pie.jpg'
-import './App.css';
+import './productos.css';
 
 function App() {
   return (
@@ -63,4 +63,4 @@ function App() {
   );
 }
 
-export default App;
+export default Productos;

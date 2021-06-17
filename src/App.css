@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  }
+}
 
 .App-header {
   background-color: #ffffff;
@@ -15,7 +15,17 @@
 
 h1{
   color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+h2{
+  color: #FFFF;
+  background-color: cornflowerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
 nav{
   display: flex;
   justify-content: space-around;
@@ -30,38 +40,34 @@ nav a{
   background-color: rgb(255, 0, 0);
   padding: 8px;
   border-radius: 8px;
-
 }
+
 nav a:hover{
   background-color: #ffffff;
   color: #fff;
 }
 
 .Appbody {
-      background: #ffffff;
-  }
+  background-color: #FFFF;
+}
 
 .App-baner{
   width: 70%;
 }
 
-.Containerproductos {
+.Container{
   width: 30%;
-  width: 10%;
-  
-
+  display: flex;
 }
 
-.Productos{
-    border: aquamarine;
-    width: 25%;
-    padding: 50px;
-    margin: 50px;
-
+.ContainerProductos {
+  width: auto;
+  display: inline-block;
 }
-footer{
-      text-align: center;
-      padding: 0 55px;
+
+.Container ContainerProductos Productos_1{
+ width: 50%;
+ display: inline-block;
 }
 
 footer .container_footer{
@@ -77,32 +83,33 @@ footer .container_footer .footer_section{
   flex-direction: column;
 }
 
-footer .footer_img{
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
+footer footer_img{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-
 
 footer .footer_img img{
-      width: 55px;
-      height: 55px;
-      cursor: pointer;
-      border-radius: 10px;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  border-radius: 10px;
 }
-  .App-productos{
-    height: 1880px;
-  }
 
-  .AppForm{
-    background-color: #fff;
-    text-align: left;
-    padding: 3px;
-    color: #FFFFFF;
-  }
+.Form {
+  background-color: antiquewhite;
+}
 
-  .App_Text_Form{
-    width: 700px;
-    padding: 5px;
-    
-  }
+.AppForm {
+  background-color: #fff;
+  text-align: left;
+  padding: 3px;
+  color: #FFFFFF;
+  justify-content: center;
+}
+
+.App_Text_Form {
+  width: 700px;
+  padding: 0px;
+  width: auto;
+}
