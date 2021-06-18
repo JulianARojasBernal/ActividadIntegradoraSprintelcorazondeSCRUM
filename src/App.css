@@ -61,26 +61,39 @@ nav a:hover{
   width: 70%;
 }
 
-
-.ContainerProductos {
+.Appbaner {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.Appbaner .App-baner{
+  width: 40%;
+  height: auto;
+}
+
+.ContainerProductos {
+  padding: 0px 150px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
 }
 
-.Productos1 {
-  border: solid 2px black;
-  width: 30%;
-  
+.Productosimagen {
+  width: 40%;
+  height: auto;  
 }
-.Productos1 img{
+.Productosimagen img{
   width: 100%;
+  height: auto;
+  
 }
 
 .Productos {
-  border: solid 2px black;
-  width: 70%;
+  width: 30%;
   
  
 }
