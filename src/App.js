@@ -42,14 +42,11 @@ function App() {
     <img src={baner3} className="App-baner" alt="baner" />
   </div>
 
-
-  <div ClassName="ContainerProductos"> </div>
-    <h2> Productos Destacados </h2>
-    <div ClassName="Productos1">
-      <img ClassName= "Producto_1" src={Productos}  alt="producto" />
-    </div>        
+  <div className="titulo"><h2> Productos Destacados </h2></div>
+  <div className="ContainerProductos"> 
     
-  <div className="info">
+
+  <div className="Productos">
     <h3> Tornillo de banco 4" Foy </h3>
       <p> -Longitud total 235mm, apertura máxima de la quijada 90mm, profundidad de la garganta de 50mm, ancho de quijada de 100mm, ancho de quijada de 10KN. Diámetro de orificios de ensamble 9mm(+/- 5%). Peso 4.8 kg (+/-3%). 
         -Base giratoria de 360°.
@@ -58,8 +55,10 @@ function App() {
         -Acabado: recubrimiento en polvo. Tipo de cara: áspera.
         -Dan el poder necesario para sujetar uno o más elementos de forma eficaz mientras son sometidos a diferentes operaciones mecánicas como aserrado, perforado, fresado, limado o marcado. </p>
   </div>
-
-
+  <div className="Productos1">
+      <img  src={Productos}  alt="producto" />
+  </div> 
+  </div>
 <div className="App_Text_Form"> <h2>¡Que gusto que estés aquí! dinos cómo podemos ayudarte en el siguiente formulario </h2> </div>
 
 <section ClassName="Form"> 
