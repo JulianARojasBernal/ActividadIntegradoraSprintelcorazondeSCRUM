@@ -40,9 +40,13 @@ function App() {
 
 <body className="Appbody">
   <h2> Las Mejores Herramientas</h2>
-  <div ClassName="Appbaner">
-      <img src={baner} className="App-baner" alt="baner" />
-      <img src={baner1} className="App-baner" alt="baner" />
+  <div ClassName="slider">
+      <ul className="ul">
+        <li className="li"><img src={baner} className="" alt="" /></li>
+        <li className="li"><img src={baner1} className="" alt="" /></li>
+        <li className="li"><img src={baner2} className="" alt="" /></li>
+        <li className="li"><img src={baner3} className="" alt="" /></li>
+      </ul>
   </div>
 
   <div className="titulo"><h2> Productos Destacados </h2></div>
@@ -56,6 +60,7 @@ function App() {
         -Dureza de quijada de 48-53 HRC (+/-2). 3 orificios de montaje. 
         -Acabado: recubrimiento en polvo. Tipo de cara: áspera.
         -Dan el poder necesario para sujetar uno o más elementos de forma eficaz mientras son sometidos a diferentes operaciones mecánicas como aserrado, perforado, fresado, limado o marcado. </p>
+        <a href="btn" class="btn small radius">Reservalo</a>
     </div>
   
     <div className="Productosimagen">
@@ -71,6 +76,7 @@ function App() {
         -Compatible con dispositivos qi. Protección contra cortocircuitos.
         -Indicador led de energía. Indicador de carga inalámbrica. Batería de polímero. 
         -Batería externa portátil para carga alámbrica e inalámbrica de celulares, cámaras, tabletas.</p>
+        <a href="btn" class="btn small radius">Reservalo</a>
     </div>
   
     <div className="Productosimagen">
@@ -88,6 +94,7 @@ function App() {
         -Motor trifásico de inducción, bomba tríplex de uso industrial, carro metálico con ruedas neumáticas.
         -Sistema autostop, incluye botella para detergente, doble filtro para impedir el paso de impurezas a la bomba.
         -Brinda la potencia requerida para ejecutar la limpieza deseada, al momento de lavar un vehículo, limpiar terrazas, cortinas, contenedores, entre muchas otras actividades de limpieza.</p>
+        <a href="btn" class="btn small radius">Reservalo</a>
     </div>
   
     <div className="Productosimagen">
@@ -109,12 +116,11 @@ function App() {
     </form>
   </section>
   
+
+  <h2> VIDEOS DESTACADO </h2>
+  <iframe width="840" height="472.5" src="https://www.youtube.com/embed/afvLkBQX_-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <h2> </h2>
-  <div ClassName="Appbaner">
-    <img src={baner2} className="App-baner" alt="baner" />
-    <img src={baner3} className="App-baner" alt="baner" />
-  </div>
-  <h2> </h2>
+
 </body>
 
   <footer>

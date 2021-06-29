@@ -26,7 +26,7 @@ h1{
 
 h2{
   color: #FFFF;
-  background-color: cornflowerblue;
+  background-color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   padding: 10px;
@@ -57,7 +57,7 @@ nav a:hover{
   background-color: #FFFF;
 }
 
-.App-baner{
+/*.App-baner{
   width: 70%;
 }
 
@@ -71,7 +71,7 @@ nav a:hover{
 .Appbaner .App-baner{
   width: 40%;
   height: auto;
-}
+} */
 
 .ContainerProductos {
   padding: 0px 150px;
@@ -140,4 +140,59 @@ footer .footer_img img{
   width: 700px;
   padding: 0px;
   width: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 30px 50px;
+  background-color: blue;
+  color: #ffff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.small{
+  font-size: 14px;
+  padding: 10px 15px;
+  
+}
+
+.slider{
+  width: 95%;
+  margin: auto;
+  
+  
+}
+
+.ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+  overflow: hidden;
+
+  animation: cambio 20s infinite;
+  animation-direction: alternate;
+}
+
+.li{
+  width: 100%;
+  list-style: none;
+}
+
+.li image{
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
 }
